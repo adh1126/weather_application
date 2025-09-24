@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/searchRootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:background="@color/darkblue">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        android:layout_margin="10dp"
+        android:background="#353535"
+        app:cardElevation="6dp">
+
+        <EditText
+            android:id="@+id/dialogSearchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Search City"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:drawablePadding="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@color/border"
+            android:imeOptions="actionSearch"
+            android:inputType="textCapWords"
+            android:textColor="@android:color/black"
+            android:textColorHint="#888888" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
