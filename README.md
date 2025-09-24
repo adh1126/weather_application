@@ -7,50 +7,58 @@ This project demonstrates API integration, JSON parsing, and modern Android deve
 
 📱 Features
 
-Current Weather Display
+* Current Weather Display
 Shows temperature, humidity, wind speed, pressure, cloud percentage, and city name.
 
-City Search
+* City Search
 Enter a city name and instantly fetch weather details.
 
-Dynamic Updates
+
+* Dynamic Updates
 Real-time updates whenever a new city is searched.
 
-Weather Icons
+
+* Weather Icons
 Displays weather icons dynamically based on the API response.
 
-Error Handling
+
+* Error Handling
 Invalid city names or network issues are handled gracefully with Toast messages.
 
-Responsive UI
+
+* Responsive UI
 Clean and user-friendly layout built with ConstraintLayout, CardView, TextView, and ImageView.
+
 
 🛠️ Technologies Used
 Programming Language
 
-Java – Core logic for Android development
+* Java – Core logic for Android development
 
 Android Components
 
-MainActivity – Handles UI and data fetching
+* MainActivity – Handles UI and data fetching
 
-ViewBinding – Type-safe access to layout components
+* ViewBinding – Type-safe access to layout components
 
-Geocoder – Converts city names to latitude & longitude
+* Geocoder – Converts city names to latitude & longitude
+
 
 External Libraries / Tools
 
-Retrofit2 – For making API requests
+* Retrofit2 – For making API requests
 
-Gson – For JSON parsing
+* Gson – For JSON parsing
 
-OpenWeatherMap API – Provides real-time weather data
+* OpenWeatherMap API – Provides real-time weather data
+
 
 UI & Design
 
-ConstraintLayout – Responsive design
+* ConstraintLayout – Responsive design
 
-CardView, TextView, ImageView – For displaying weather data and icons
+* CardView, TextView, ImageView – For displaying weather data and icons
+
 
 ⚙️ How It Works
 
@@ -64,13 +72,13 @@ Weather details are displayed in real-time on the main screen.
 
 Weather icon is dynamically fetched using the icon code from API.
 
+
 📸 Screens (Example Output)
 
 Main Screen: Search bar + weather details
 
 Weather Display: Temperature, humidity, wind, sea level, icons
 
-(Add screenshots here if available)
 
 🚀 Installation & Setup
 
@@ -84,6 +92,7 @@ Open in Android Studio.
 Add your OpenWeatherMap API key in the code.
 
 Build and run the project on an Android device or emulator.
+
 
 📚 References
 
@@ -101,6 +110,7 @@ Stack Overflow
  – Debugging help
 
 YouTube Tutorials – For basic structure and Retrofit integration
+
 
 ✅ Conclusion
 
